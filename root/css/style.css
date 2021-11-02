@@ -1,0 +1,19 @@
+
+header {
+    text-align: center;
+    background: #E5E5E5;
+}
+h1,h3 {
+    background-color:#C4C4C4;
+    color: #005677;
+    text-transform: uppercase;
+}
+footer {
+    background: #005677;
+    text-align: center;
+    color: white;
+}
+.negritaysubrayado {
+    font-weight: bold;
+    font-style: italic;
+}
