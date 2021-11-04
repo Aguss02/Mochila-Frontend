@@ -1,16 +1,39 @@
 
-header {
-    text-align: center;
-    background: #E5E5E5;
-    margin-bottom: 107px;
+body{
+    padding: 1%;
 }
-h1,h3 {
-    background-color:#C4C4C4;
-    color: #005677;
+header {
+    background: #E5E5E5;
+    background-image: url('../img/banner.jpg');
+    background-size: 20%;
+    text-align: center;
+}
+#sobre-mi{
+    padding: 10px 25px;
+    background-color: #5AF9B5;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+#sobre-mi:hover{
+    background-color: lightblue;
+}
+h2 {
+    font-family: 'Zen Old Mincho', serif;
+    background-color:#CC7EFF;
+    color: white;
+    font-weight: 700;
+}
+h1 {
+    text-align: center;
+    background-color:#CC7EFF;
+    color: white;
+    font-family: 'Zen Old Mincho', serif;
+    font-weight: 900;
     text-transform: uppercase;
 }
 footer {
-    background: #005677;
+    background: #CC7EFF;
     text-align: center;
     color: white;
 }
@@ -26,5 +49,6 @@ section{
 margin-left: 100px;
 }
 .negrita {
- font-weight: bold;
+    font-weight: bold;
+    box-align:"top";
 }
