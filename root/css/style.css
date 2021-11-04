@@ -22,9 +22,9 @@ section{
     font-weight: bold;
     font-style: italic;
 }
-#interlineado {
-margin-left: 78px;
+.interlineado {
+margin-left: 100px;
 }
-#negrita {
+.negrita {
  font-weight: bold;
 }
