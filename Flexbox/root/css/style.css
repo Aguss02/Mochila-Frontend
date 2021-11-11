@@ -1,0 +1,31 @@
+/*** HEADER ***/
+.barra {
+    display: flex;
+    background-color: #222222;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navegacion ul {
+    display: flex;
+}
+
+/** LISTAS **/
+.listas {
+    list-style: none;
+    color: white;
+}
+.listas a {
+    text-decoration: none;
+}
+.listas a:visited {
+    color: white;
+}
+
+/* CONTENIDO */
+#tarjetas {
+    display: flex;
+    justify-content: space-around;
+}
+
+/** FOOTER **/
