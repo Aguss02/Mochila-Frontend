@@ -1,6 +1,10 @@
 
 /*** HEADER ***/
+<<<<<<< HEAD:Flexbox/root/css/style.css
 #navegacion {
+=======
+header {
+>>>>>>> dev:Pizzeria/root/css/style.css
     display: flex;
     justify-content: space-between;
 }
@@ -10,12 +14,21 @@
 }
 #header {
     display: flex;
+<<<<<<< HEAD:Flexbox/root/css/style.css
     background-color: #222222;
     justify-content: space-between;
     align-items: center;
 }
 
 /** LISTAS  DE NAVEGACION**/
+=======
+
+}
+#navegacion li {
+    margin: 5px;
+}
+/** LISTAS **/
+>>>>>>> dev:Pizzeria/root/css/style.css
 .listas {
     list-style: none;
     color: white;
@@ -39,6 +52,7 @@
 }
 
 /** FOOTER **/
+<<<<<<< HEAD:Flexbox/root/css/style.css
 #footer {
     display: flex;
     background-color: #222222;
@@ -50,3 +64,11 @@
     margin: 7px 0px;
     align-self: flex-start;
 }
+=======
+footer {
+    display: flex;
+    background-color: #222222;
+    align-items: center;
+    justify-content: space-between;
+}
+>>>>>>> dev:Pizzeria/root/css/style.css
