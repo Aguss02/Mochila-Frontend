@@ -1,16 +1,21 @@
+
 /*** HEADER ***/
-.barra {
+#navegacion {
     display: flex;
-    background-color: #222222;
-    align-items: center;
     justify-content: space-between;
 }
-
-#navegacion ul {
+#navegacion li {
+    padding: 5px;
+    margin: 0px 5px;
+}
+#header {
     display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/** LISTAS **/
+/** LISTAS  DE NAVEGACION**/
 .listas {
     list-style: none;
     color: white;
@@ -25,7 +30,23 @@
 /* CONTENIDO */
 #tarjetas {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 80px 0px 80px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-grow: 0.4;
+
 }
 
 /** FOOTER **/
+#footer {
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer li {
+    margin: 7px 0px;
+    align-self: flex-start;
+}
