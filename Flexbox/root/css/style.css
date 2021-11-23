@@ -1,5 +1,5 @@
 /*** HEADER ***/
-.barra {
+header {
     display: flex;
     background-color: #222222;
     align-items: center;
@@ -8,8 +8,11 @@
 
 #navegacion ul {
     display: flex;
-}
 
+}
+#navegacion li {
+    margin: 5px;
+}
 /** LISTAS **/
 .listas {
     list-style: none;
@@ -29,3 +32,9 @@
 }
 
 /** FOOTER **/
+footer {
+    display: flex;
+    background-color: #222222;
+    align-items: center;
+    justify-content: space-between;
+}
