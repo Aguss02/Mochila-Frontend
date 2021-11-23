@@ -1,10 +1,60 @@
-.tarjetas{
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+/** HEADER DESCUENTOS */
+
+#header {
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    padding-top: 2px;
+    font-size: 15px;
+    height: 23px;
+}
+
+/** HEADER LOGO TIENDA */
+
+#header2 {
+    background: #00669F;
+    padding: 1%;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+/** BARRA DE NAVEGACIÓN */
+
+nav {
+    background-color: #001D2D;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}   
+
+nav ul {
+    display: flex;
+    flex-grow: 0.1;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* .tarjetas{
     height: 500px;
     width: 300px;
     border-radius: 2px;
     background-color: grey;
-    position: relative;
-    left: 150px;
+    display: flex;
     border-radius: 5%;
 }
 .tarjetas p {
@@ -13,7 +63,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .tarjetas h2 {
-    font-family: 'Roboto', sans-serif;
+    
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -40,4 +90,4 @@
     right: 90px;
     top: 130px;
     border-radius: 50%;
-}
+} */
