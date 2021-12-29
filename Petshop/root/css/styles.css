@@ -1,0 +1,84 @@
+/* Estilos generales */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/** Estilo para header y footer **/
+
+.hf-style {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+    text-align: center;
+    height: 25px;
+    padding: 1% 6vw;
+}
+
+/** Estilos generales, para libreria **/
+
+.flex-conteiner {
+    display: flex;
+}
+
+.list-style {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+a:visited {
+    color: #F3F3F3;
+}
+
+/** Header **/
+
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+ padding: 0 5%;
+}
+
+/*** Navegación ***/
+
+#navegacion {
+    background-color: #F0A83E;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 1% 2vw;
+}
+#navegacion nav {
+    flex-grow: 0.2;
+}
+
+#navegacion ul {
+   justify-content: space-evenly; 
+}
+
+#navegacion li {
+    margin-right: 1%;
+}
+
+#navegacion span::before {
+    content: '  ';
+}
+
+/**** FOOTER ESTILOS ****/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -7,10 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
@@ -25,19 +21,25 @@
         </div>
     </header>
 
+    <section class="form-contenedor">
+        <div class="form-contenido">
+            <form action="login.html" method="POST" class="form">
+                <h1>Login</h1>
+                <input type="email" name="email" placeholder="Jonathan@digitalhouse.com">
+                <br>
+                <input type="password" name="contraseña" placeholder="Contraseña">
+                <br>
+                <input type="submit" value="Entrar" name="entrar">
+                <br>
+                <p>¿No tenés cuenta? <a href="registro.html">Registrarme</a></a></p>
+        </div>
+        </form>
 
-    <form action="login.html" method="POST">
-        <h1>Login</h1>
-            <input type="email" name="email" placeholder="Jonathan@digitalhouse.com">
-            <br>
-            <input type="password" name="contraseña" placeholder="Contraseña">
-            <br>
-            <input type="submit" value="Entrar" name="entrar">
-            <br>
-        <p><a href="registro.html">¿No tenés cuenta?</a> Registrarme</p>
+    </section>
 
-    </form>
-
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
 </body>
 
 </html>
