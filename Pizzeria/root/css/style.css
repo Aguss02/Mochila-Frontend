@@ -1,74 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
 
 /*** HEADER ***/
-<<<<<<< HEAD:Flexbox/root/css/style.css
-#navegacion {
-=======
-header {
->>>>>>> dev:Pizzeria/root/css/style.css
-    display: flex;
-    justify-content: space-between;
-}
-#navegacion li {
-    padding: 5px;
-    margin: 0px 5px;
-}
-#header {
-    display: flex;
-<<<<<<< HEAD:Flexbox/root/css/style.css
-    background-color: #222222;
-    justify-content: space-between;
-    align-items: center;
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #222222;
+  padding: 0.5rem;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  height: 100px;
 }
 
-/** LISTAS  DE NAVEGACION**/
-=======
-
+.HeaderImg {
+  margin-right: 1rem;
 }
-#navegacion li {
-    margin: 5px;
-}
-/** LISTAS **/
->>>>>>> dev:Pizzeria/root/css/style.css
-.listas {
-    list-style: none;
-    color: white;
-}
-.listas a {
-    text-decoration: none;
-}
-.listas a:visited {
-    color: white;
+.HeaderListCtn {
+  color: #f3f3f3;
+  align-items: center;
+  display: flex;
+  margin-right: 1rem;
 }
 
-/* CONTENIDO */
-#tarjetas {
-    display: flex;
-    justify-content: center;
-    margin: 80px 0px 80px;
-    flex-wrap: wrap;
-    align-content: stretch;
-    flex-grow: 0.4;
+.HeaderList {
+  display: flex;
+  list-style: none;
+}
 
+.HeaderList li {
+  padding: 5px;
+}
+
+.HeaderList a {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+/** CARDS **/
+
+.CardsCtn {
+  display: flex;
+  margin: 2rem 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.CardBox {
+  height: 350px;
+  width: 50%;
+  max-width: 490px;
+  min-width: 408px;
+  border-radius: 5px;
+  margin: 0.5rem;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-repeat: no-repeat;
+}
+
+#DeliveryCard {
+  background-image: url("../img/delivery.jpg");
+  color: #fc200c;
+}
+
+#DeliveryCard h2 {
+  font-size: 24px;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.WhiteText {
+  color: #ffffff;
+}
+
+#TopCard {
+  background-image: url("../img/PizzaFalling.jpg");
+  background-color: #ffffff;
+  background-position: 85% 60%;
+}
+
+#TopCard h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 1rem;
+  color: #fc200c;
+}
+
+.TopPizza {
+  padding: 3rem 0 0 4rem;
+  font-weight: 700;
+  color: #222222;
+}
+
+.TopPizza h3 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.TopPizza li {
+  padding: 0.2rem 0rem;
+  font-size: 16px;
 }
 
 /** FOOTER **/
-<<<<<<< HEAD:Flexbox/root/css/style.css
-#footer {
-    display: flex;
-    background-color: #222222;
-    justify-content: space-between;
-    align-items: center;
+
+.Footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #222222;
+  height: 150px;
 }
 
-#footer li {
-    margin: 7px 0px;
-    align-self: flex-start;
+.FooterList li{
+    padding: 0.4rem 0;
+    list-style: none;
 }
-=======
-footer {
-    display: flex;
-    background-color: #222222;
-    align-items: center;
-    justify-content: space-between;
+
+.FooterList a {
+    text-decoration: none;
+    color: #F3F3F3;
 }
->>>>>>> dev:Pizzeria/root/css/style.css
